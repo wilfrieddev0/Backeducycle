@@ -1,0 +1,33 @@
+{
+    "php.version": "8.3",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "educycle",
+            "database": "educycle",
+            "username": "root",
+            "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Enabled",
+                "ssl": {
+                    "ca": "C:\\wamp64\\www\\ProjetWeb\\rds-combined-ca-bundle.pem"
+                }
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "MySQL",
+            "name": "JawsDB",
+            "connectString": "mysql://ut37iysebpyaofah:dv47ld5yqne16dtx@r1bsyfx4gbowdsis.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/w2tsrfrmi57bzfbu"
+        }
+    ],
+}

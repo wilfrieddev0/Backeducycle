@@ -1,0 +1,24 @@
+{
+    "name": "utilisateur/projet-web",
+    "description": "API REST d'une sorte de don.fr..Uniquement en php...La base de données est gerée avec Mysql...",
+    "main" :  "index.php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "landry kankeu",
+            "email": "118926620+KFLandry@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "src/controller",
+            "Model\\": "src/model",
+            "Model\\DB\\": "src/model/db",
+            "Model\\JWT\\": "src/model/JWT",
+            "Model\\Historique\\": "src/model/historique"
+        }
+    }
+}
